@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    background-color: rgb(29, 226, 160);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border: 1px solid rgb(13, 146, 228);
+    border-radius: 5px;
+    background-color: rgb(227, 248, 255);
+    color: rgb(13, 146, 228);
+    text-align: center;
+    padding: 5px;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#task-form{
+    display: flex;
+    align-items: center;
+}
+
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
